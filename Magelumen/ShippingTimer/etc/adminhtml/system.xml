@@ -13,7 +13,7 @@
 		<section id="shipping_cutoff" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
 			<label>Shipping Cutoff Timer</label>
 			<tab>magelumen</tab>
-			<resource>Extendware_CutoffTime::config_extendware_cutofftime</resource>
+			<resource>Magelumen_ShippingTimer::config_magelumen_shippingTimer</resource>
 			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
 				<label>Magelumen Shipping Timer</label>
 				<field id="isEnable" translate="label" type="select" sortOrder="5" showInDefault="1" showInStore="10" showInWebsite="1">
@@ -24,12 +24,12 @@
 				<field id="shippingCutoffFrom" translate="label" type="date" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>From</label>
                     <comment><![CDATA[Date Format will be mm/dd/yyyy]]></comment>
-                    <frontend_model>Extendware\CutoffTime\Block\Adminhtml\System\Config\DateTime</frontend_model>
+                    <frontend_model>Magelumen\ShippingTimer\Block\Adminhtml\System\Config\DateTime</frontend_model>
                 </field>
 				<field id="shippingCutoffTo" translate="label" type="date" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>To</label>
                     <comment><![CDATA[Date Format will be mm/dd/yyyy]]></comment>
-                    <frontend_model>Extendware\CutoffTime\Block\Adminhtml\System\Config\DateTime</frontend_model>
+                    <frontend_model>Magelumen\ShippingTimer\Block\Adminhtml\System\Config\DateTime</frontend_model>
                 </field>
 			</group>
 		</section>

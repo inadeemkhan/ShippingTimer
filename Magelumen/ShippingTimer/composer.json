@@ -1,6 +1,6 @@
 {
-    "name": "extendware/module-cutofftime",
-    "description": "To show cutoff time of FedEX.",
+    "name": "magelumen/module-shippingtimer",
+    "description": "To show cutoff time of shipping.",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Extendware\\CutoffTime\\": ""
+            "Magelumen\\ShippingTimer\\": ""
         }
     }
 }

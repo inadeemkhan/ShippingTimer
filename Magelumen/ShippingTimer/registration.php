@@ -1,5 +1,5 @@
 <?php
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Extendware_CutoffTime', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magelumen_ShippingTimer', __DIR__);
 

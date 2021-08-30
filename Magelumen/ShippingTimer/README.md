@@ -1,6 +1,6 @@
-# Mage2 Module Extendware CutoffTime
+# Mage2 Module Magelumen ShippingTimer
 
-    ``extendware/module-cutofftime``
+    ``magelumen/module-shippingtimer``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -17,8 +17,8 @@ To show cutoff time of FedEX.
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/Extendware`
- - Enable the module by running `php bin/magento module:enable Extendware_CutoffTime`
+ - Unzip the zip file in `app/code/Magelumen`
+ - Enable the module by running `php bin/magento module:enable Magelumen_ShippingTimer`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -29,8 +29,8 @@ To show cutoff time of FedEX.
     - public repository `packagist.org`
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require extendware/module-cutofftime`
- - enable the module by running `php bin/magento module:enable Extendware_CutoffTime`
+ - Install the module composer by running `composer require magelumen/module-shippingtimer`
+ - enable the module by running `php bin/magento module:enable Magelumen_ShippingTimer`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -49,7 +49,7 @@ To show cutoff time of FedEX.
 ## Specifications
 
  - Helper
-	- Extendware\CutoffTime\Helper\Data
+	- Magelumen\ShippingTimer\Helper\Data
 
 
 ## Attributes
